@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/shaunburdick/slack-ooo-personal.git"
+    "url": "git+ssh://git@github.com/fogventures/slack-ooo-personal.git"
   },
-  "author": "Shaun Burdick <git@shaunburdick.com>",
+  "author": "FogVentures <https://github.com/FogVentures>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/shaunburdick/slack-ooo-personal/issues"
+    "url": "https://github.com/FogVentures/slack-ooo-personal/issues"
   },
-  "homepage": "https://github.com/shaunburdick/slack-ooo-personal",
+  "homepage": "https://github.com/FogVentures/slack-ooo-personal",
   "engine": {
     "node": "^5.1.0"
   },

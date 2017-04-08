@@ -1,16 +1,16 @@
 {
-  "name": "Slack OOO Personal",
-  "description": "Your personal Slack Out of Office bot",
+  "name": "Slack OoO Bot",
+  "description": "Personal OoO office bot for Slack",
   "keywords": [
     "slack",
     "bot",
     "ooo",
     "out of office"
   ],
-  "repository": "https://github.com/shaunburdick/slack-ooo-personal",
+  "repository": "https://github.com/FogVentures/slack-ooo-personal",
   "env": {
     "APP_MESSAGE": {
-      "description": "Your out of office message"
+      "description": "Hey ${user}, I'm out of the country.  Woo-hoo! I'll be back next Monday. See you then!"
     },
     "APP_REMINDER": {
       "description": "Time to wait before responding to person/channel again (in minutes)",
@@ -31,11 +31,11 @@
     },
     "APP_RESPOND_DMPREFIX": {
       "description": "Default response to Direct Messages",
-      "value": "Hello ${user}. I'm currently out of the office with message:\n\n"
+      "value": "Out of office."
     },
     "APP_RESPOND_CHANNELPREFIX": {
       "description": "Default response to Channel Messages",
-      "value": "Hello ${channel}. I'm currently out of the office with message:\n\n"
+      "value": "Out of office."
     },
     "APP_TIMEBOX_START": {
       "description": "Time to start responding (Timestamp in milliseconds, or parsable date)",
